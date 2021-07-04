@@ -1,6 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
+    margin:0;
+}
+.top-header{
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
 }
 p{
     font-size: 20px;
@@ -11,18 +16,30 @@ span{
 section{
     display: flex;
 }
-.infor{
-    width:60%;
+.half-width{
+    width:50%;
     margin-left: 15px;
+    margin-top: 20px;
 }
-.picture{
+.half-width{
    margin-top: 30px;
-    width: 40%;
+   margin-left: 20px;
+    width: 50%;
 }
 .link-button{
     text-decoration: none;
-    background: orange;
-    font-size: 15x;
-    padding: 10px 20px;
+    background-image: linear-gradient(orange,tomato);
+    font-size: 10x;
+    padding: 5px 20px;
     border-radius: 10px;
+}
+
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width img{
+    width:500px;
+    margin-top: 20px;
 }
